@@ -9,7 +9,7 @@ const Rc2 = ()=>{
             <button className="modal" onClick={()=>setModal(true)}>Show Modal</button>
             {
                 modal && <div onClick={()=>setModal(false)} className="model-overlay">
-                    <button onClick={()=>setModal(false)} className="model-cose">Close</button>
+                    <button onClick={()=>setModal(false)} className="model-close">Close</button>
                     <p className="model-p">This is the content of this modal</p>
                 </div>
             }
